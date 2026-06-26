@@ -1,5 +1,6 @@
 # Anveshak
 ![logo](screeshots/logo.jpg)
+
 Anveshak is a bootable digital forensic toolkit built to support secure, case-based investigations while preserving evidence integrity throughout the forensic process.
 
 I built Anveshak as my BCA Final Year Project because I wanted to go beyond learning forensic concepts in theory and explore how digital investigations actually work in practice. The goal was to create an environment where evidence could be collected, analyzed, correlated, and documented in a structured way without compromising its integrity.
@@ -36,6 +37,7 @@ Rather than functioning as just another collection of forensic utilities, Anvesh
 * Extraction of browsing history and timestamps
 * Recovery of deleted browsing records where available
 * Multi-browser support
+  
 ![Browser History](browser.jpg)
 
 #### Terminal History Analysis
@@ -47,12 +49,14 @@ Rather than functioning as just another collection of forensic utilities, Anvesh
 
 * Retrieval of previously connected wireless networks
 * Timeline-based analysis of network connectivity
+  
 ![Wifi History](wifi.jpg)
 
 #### USB Activity Tracking
 
 * Detection of connected USB devices
-* Analysis of connection timestamps and usage patterns
+* Analysis of connection timestamps and usage pattern
+  
 ![USB History](usb.jpg)
 
 #### Communication Trace Analysis
@@ -65,6 +69,7 @@ Rather than functioning as just another collection of forensic utilities, Anvesh
 * Investigator-driven file inspection
 * Manual evidence tagging and flagging
 * Support for structured evidence collection
+  
 ![File Explorer](file.jpg),
 
 ### Super Timeline Generation
@@ -86,6 +91,7 @@ Anveshak correlates browser activity, terminal commands, file modifications, USB
 * Investigation summaries
 * Timeline exports
 * Evidence hashes and analysis results
+  
 ![Report Generation](report.jpg)
 
 ## What I Learned
